@@ -17,6 +17,10 @@ Many roadmap processes are opaque, politically driven, or disconnected from user
 - supports stakeholder alignment with clearer planning artifacts
 - demonstrates how prototypes can improve roadmap discussions before engineering execution begins
 
+## Visual overview
+
+![User-Driven Roadmap Diagram](assets/diagrams/user-driven-roadmap.svg)
+
 ## Example artifacts
 
 - [`examples/user-inputs.md`](examples/user-inputs.md)
