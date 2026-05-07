@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User-Driven Roadmap</title>
+  <style>
+    body{margin:0;font-family:Inter,Arial,sans-serif;background:#0b1020;color:#f8fafc}
+    .wrap{max-width:1240px;margin:0 auto;padding:40px}
+    .hero{display:grid;grid-template-columns:1fr .9fr;gap:28px}
+    .card{background:#12172a;border:1px solid #26304b;border-radius:20px;padding:24px;box-shadow:0 16px 40px rgba(0,0,0,.28)}
+    h1{font-size:44px;margin:0 0 12px}.muted{color:#94a3b8;line-height:1.6}
+    .pill{display:inline-block;padding:8px 12px;border-radius:999px;background:#38bdf822;border:1px solid #38bdf855;color:#d9f7ff;margin:6px 8px 0 0;font-size:13px}
+    .cols{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px;margin-top:24px}
+    .signal{padding:14px 16px;border-radius:14px;background:#0b1020;border:1px solid #26304b;margin-bottom:10px}
+    .roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .lane{background:#0b1020;border:1px solid #26304b;border-radius:16px;padding:14px}
+    .item{background:#1d4ed8;border-radius:12px;padding:12px;margin:10px 0;color:white}
+    .item.alt{background:#0f766e}.item.gray{background:#334155}
+    .score{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #24314e}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="card">
+        <div class="pill">Product Strategy</div><div class="pill">Roadmap Prototype</div><div class="pill">User-Centered Planning</div>
+        <h1>User-Driven Roadmap</h1>
+        <p class="muted">A concept UI showing how user signals, stakeholder input, strategic goals, and delivery constraints can be translated into a clearer, more explainable roadmap.</p>
+        <div class="cols">
+          <div>
+            <div class="signal"><strong>User Signal</strong><br><span class="muted">Customers want clearer request status and better transparency.</span></div>
+            <div class="signal"><strong>Stakeholder Need</strong><br><span class="muted">Reduce ad hoc roadmap changes and surprise dependencies.</span></div>
+            <div class="signal"><strong>Constraint</strong><br><span class="muted">Limited engineering capacity across two quarters.</span></div>
+          </div>
+          <div class="card" style="padding:18px;background:#0b1020;">
+            <strong>Prioritization Score</strong>
+            <div class="score"><span>User Impact</span><span>9/10</span></div>
+            <div class="score"><span>Strategic Alignment</span><span>8/10</span></div>
+            <div class="score"><span>Dependency Risk</span><span>6/10</span></div>
+            <div class="score"><span>Complexity</span><span>5/10</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <strong>Roadmap View</strong>
+        <div class="roadmap" style="margin-top:16px;">
+          <div class="lane"><strong>Now</strong><div class="item">Improve intake quality</div><div class="item alt">Surface dependency visibility</div></div>
+          <div class="lane"><strong>Next</strong><div class="item">Status transparency for users</div><div class="item gray">Roadmap review workflow</div></div>
+          <div class="lane"><strong>Later</strong><div class="item gray">Advanced customization</div><div class="item gray">Low-signal requests</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

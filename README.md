@@ -63,3 +63,7 @@ assets/         # screenshots and diagrams
 ## Status
 
 Prototype / portfolio project
+
+## Prototype UI
+
+A lightweight concept interface lives at [`prototype/index.html`](prototype/index.html). Open it locally in a browser to explore how user signals can translate into a roadmap view.
