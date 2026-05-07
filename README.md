@@ -17,12 +17,27 @@ Many roadmap processes are opaque, politically driven, or disconnected from user
 - supports stakeholder alignment with clearer planning artifacts
 - demonstrates how prototypes can improve roadmap discussions before engineering execution begins
 
+## Example artifacts
+
+- [`examples/user-inputs.md`](examples/user-inputs.md)
+- [`examples/generated-roadmap.md`](examples/generated-roadmap.md)
+- [`examples/prioritization-decisions.md`](examples/prioritization-decisions.md)
+- [`docs/prioritization-framework.md`](docs/prioritization-framework.md)
+- [`assets/diagrams/roadmap-flow.md`](assets/diagrams/roadmap-flow.md)
+
 ## Core ideas
 
-- User signal first
-- Prioritization should be explainable
-- Prototypes reduce ambiguity
-- Strategy and execution should connect
+### User signal first
+Roadmap inputs should begin with real user needs, not just internal opinions.
+
+### Prioritization should be explainable
+A roadmap is stronger when teams can explain why something is in, out, or deferred.
+
+### Prototypes reduce ambiguity
+Working artifacts help stakeholders align faster than abstract discussions alone.
+
+### Strategy and execution should connect
+Roadmaps should reflect both ambition and delivery reality.
 
 ## Repository structure
 
